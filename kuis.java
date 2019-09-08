@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 class kuis {
   public static void main(String[] args) {
-  // Created by Yuswan kurniawan
-  //Anda bisa modifikasi
+  //Created by Yuswan kurniawan
+  //Silakan dimodifikasi
    Scanner input = new Scanner(System.in);
    String[][] soalPlusjawaban = {
      {"1. 1 + 1 = ... ", "2"},
@@ -21,20 +21,28 @@ class kuis {
    };
    
    int skorBenar = 0, skorSalah = 0;
+   System.out.println("Contoh cara menjawab = ");
+   System.out.println("1. 10 x 5 = ...");
+   System.out.println("A. 50");
+   System.out.println("B. 20");
+   System.out.println("C. 30");
+   System.out.println("D. 10");
+   System.out.println("Jawaban kamu = 50");
+   
    for(int i=0; i < soalPlusjawaban.length; i++) {
      System.out.println(soalPlusjawaban[i][0]);
      for(int j=0; j < jawaban[0].length; j++) {
        System.out.println(jawaban[i][j]);
      }
-     System.out.print("Masukan jawaban anda : ");
+     System.out.print("Jawaban kamu : ");
      String jwbn = input.nextLine();
      String jwb = jwbn.toLowerCase();
      if(jwb.equals(soalPlusjawaban[i][1]) == true) {
-       System.out.println("Jawaban anda benar :)\n");
+       System.out.println("Jawaban kamu benar :)\n");
        skorBenar++;
      }
      else {
-       System.out.println("Jawaban anda salah :(\n");
+       System.out.println("Jawaban kamu salah :(\n");
        skorSalah++;
      }
     }
