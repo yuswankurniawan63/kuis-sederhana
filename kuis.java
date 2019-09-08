@@ -19,7 +19,7 @@ class kuis {
      {"A. 8","B. 10","C. 12","D. 25"},
      {"A. 12","B. 13","C. 10","D. 15"}
    };
-   
+
    int skorBenar = 0, skorSalah = 0;
    System.out.println("Contoh cara menjawab = ");
    System.out.println("1. 10 x 5 = ...");
@@ -27,8 +27,8 @@ class kuis {
    System.out.println("B. 20");
    System.out.println("C. 30");
    System.out.println("D. 10");
-   System.out.println("Jawaban kamu = 50");
-   
+   System.out.println("Jawaban kamu = 50\n\n");
+
    for(int i=0; i < soalPlusjawaban.length; i++) {
      System.out.println(soalPlusjawaban[i][0]);
      for(int j=0; j < jawaban[0].length; j++) {
