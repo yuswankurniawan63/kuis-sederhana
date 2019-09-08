@@ -21,13 +21,15 @@ class kuis {
    };
 
    int skorBenar = 0, skorSalah = 0;
+   System.out.println("-------------------------------");
    System.out.println("Contoh cara menjawab = ");
    System.out.println("1. 10 x 5 = ...");
    System.out.println("A. 50");
    System.out.println("B. 20");
    System.out.println("C. 30");
    System.out.println("D. 10");
-   System.out.println("Jawaban kamu = 50\n\n");
+   System.out.println("Jawaban kamu = 50");
+   System.out.println("-------------------------------\n\n");
 
    for(int i=0; i < soalPlusjawaban.length; i++) {
      System.out.println(soalPlusjawaban[i][0]);
