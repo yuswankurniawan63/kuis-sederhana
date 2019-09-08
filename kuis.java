@@ -3,6 +3,7 @@ import java.util.Scanner;
 class kuis {
   public static void main(String[] args) {
   // Created by Yuswan kurniawan
+  //Anda bisa modifikasi
    Scanner input = new Scanner(System.in);
    String[][] soalPlusjawaban = {
      {"1. Siapakah nama anda ? ... ", "yusuf"},
@@ -14,7 +15,7 @@ class kuis {
    String[][] jawaban = {
      {"A. Yusuf", "B. Yuswan","C. Ferdin","D. Ucup"},
      {"A. One Piece","B. Naruto","C. Fairy Tale","D. Gundala"},
-     {"A. Fiqri","B. Daniel","C. Tian","D. Gilang"},
+     {"A. Bima","B. Ayu","C. Tian","D. Gilang"},
      {"A. Engga tw","B. Skip","C. Linus","D. Sleep"},
      {"A. ?","B. ?","C. ?","D. ?"}
    };
