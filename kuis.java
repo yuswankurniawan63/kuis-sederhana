@@ -6,19 +6,20 @@ class kuis {
   //Anda bisa modifikasi
    Scanner input = new Scanner(System.in);
    String[][] soalPlusjawaban = {
-     {"1. Siapakah nama anda ? ... ", "yusuf"},
-     {"2. Siapakah tokoh favorit kartun anda ? ...","naruto"},
-     {"3. Siapakah founder PimBel ? ...", "gilang"},
-     {"4. Siapakah penemu linux ? ...", "linus"},
-     {"5. Siapkah Siapkah ? ...", "?"}
+     {"1. 1 + 1 = ... ", "2"},
+     {"2. 2 + 2 = ...","4"},
+     {"3. 3 + 3 = ...", "6"},
+     {"4. 4 + 4 = ...", "8"},
+     {"5. 5 + 5 = ...", "10"}
    };
    String[][] jawaban = {
-     {"A. Yusuf", "B. Yuswan","C. Ferdin","D. Ucup"},
-     {"A. One Piece","B. Naruto","C. Fairy Tale","D. Gundala"},
-     {"A. Bima","B. Ayu","C. Tian","D. Gilang"},
-     {"A. Engga tw","B. Skip","C. Linus","D. Sleep"},
-     {"A. ?","B. ?","C. ?","D. ?"}
+     {"A. 2", "B. 3","C. 4","D. 5"},
+     {"A. 1","B. 0","C. 3","D. 4"},
+     {"A. 5","B. 1","C. 6","D. 7"},
+     {"A. 8","B. 10","C. 12","D. 25"},
+     {"A. 12","B. 13","C. 10","D. 15"}
    };
+   
    int skorBenar = 0, skorSalah = 0;
    for(int i=0; i < soalPlusjawaban.length; i++) {
      System.out.println(soalPlusjawaban[i][0]);
